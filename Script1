@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#Ask user to enter their first number
+echo Enter your first number
+read varnum1
+
+#Ask user to enter their second number
+echo Enter your second number
+read varnum2
+
+varnum3=$((varnum1 + varnum2))
+varnum4=$((varnum1 - varnum2))
+varnum5=$((varnum1 / varnum2))
+varnum6=$((varnum1 * varnum2))
+echo The sum of $varnum1 and $varnum2 is $varnum3
+echo The difference between $varnum1 and $varnum2 is $varnum4
+echo The division between $varnum1 and $varnum2 is $varnum5
+echo The multiplication of $varnum1 and $varnum2 is $varnum6
