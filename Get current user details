@@ -1,0 +1,13 @@
+#This script check the current user, the current directory where they are working from, the PC's date and time and prints out the information
+#!/bin/bash
+
+#Get current working user
+user="$(whoami)"
+
+#Get current working directory
+dir="$(pwd)"
+
+#Get current date/time
+now="$(date)"
+
+echo "The current user is $user and working from the $dir directory on $now"
