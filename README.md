@@ -1,0 +1,1 @@
+This script requests the user to enter two numbers, stores the number in a variable, performs simple calculations of addition, subtraction, division and multiplication then echos the answer to the user
