@@ -1,0 +1,10 @@
+#This script list items in an array 
+#!/bin/bash
+
+#List the  books in an array
+favouritebooks=("Rich Dad, Poor Dad" "Think and grow rich" "The Cashflow Quadrant" "Laws of Success" )
+
+#loop through the array of elements
+for i in ${!favouritebooks[@]}; do
+  echo "index $i is ${favouritebooks[$i]}"
+done
